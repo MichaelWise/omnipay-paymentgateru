@@ -300,7 +300,7 @@ class AuthorizeRequest extends AbstractCurlRequest
 
         $extraParameters = [
             'currency', 'description', 'language', 'pageView', 'sessionTimeoutSecs', 'features',
-            'bindingId', 'expirationDate', 'failUrl', 'clientId', 'merchantLogin', 'taxSystem',
+            'bindingId', 'expirationDate', 'failUrl', 'clientId', 'merchantLogin', 'taxSystem', 'jsonParams',
         ];
 
         foreach ($extraParameters as $parameter) {
